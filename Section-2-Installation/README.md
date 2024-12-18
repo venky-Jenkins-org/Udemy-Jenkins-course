@@ -17,7 +17,7 @@ dnf install java-17-amazon-corretto
 ```
 ### Step:2 ==> Jenkins Installation
 
-### Ubuntu
+#### Ubuntu
 ```
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
@@ -32,7 +32,7 @@ sudo systemctl start jenkins
 sudo systemctl status jenkins
 ```
 
-### RedHat
+#### RedHat
 ```
 sudo wget -O /etc/yum.repos.d/jenkins.repo \
     https://pkg.jenkins.io/redhat-stable/jenkins.repo
@@ -95,7 +95,7 @@ docker run --name jenkins-blueocean --restart=on-failure --detach \
 
 # Jenkins Configuration
 
-## Change default Jenkins Home Directory PATH 
+## How to Change default Jenkins Home Directory PATH 
 
 ```
 vim  /etc/sysconfig/jenkins
