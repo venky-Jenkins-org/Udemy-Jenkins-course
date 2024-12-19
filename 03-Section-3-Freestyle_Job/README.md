@@ -25,9 +25,27 @@ fi
 JOB => configure => Built Trigger => 
 ```
 ## LAB-2
-### Select the Manditory Option for above Jenkins JOB
+### What are the Manditory option we need to selecct for a Jenkins JOB
 
-#### What are the Manditory option we need to selecct for a Jenkins JOB
+#### 1. Delete existing workspace before build start
+
+These will delete the Existing Workspace Before it start the New Build
+```
+job ==> Build Trigger ==> Delete Existing workspace before build start
+```
+#### 2. Delete the old builds
+
+These will Delete the out Builds, we need to mention the threshld then it will delete accordingly 
+```
+job ==> General ==> Discard old builds
+```
+
+#### 3. Add Timestamp to your Builds
+
+These will add the Timestamp to our Buils, when we see console output then it will show Timestamp
+```
+job ==> Build Trigger ==> Add Timestamp to Console Output
+```
 
 ## LAB-3
 ### GIT Webhook Integration
