@@ -1,10 +1,10 @@
 # Freestyle JOB
-### How to create Freestyle JOB
+#### How to create Freestyle JOB
 ```
 Jenkins Home ==> New Iteam ==> Enter "JOB Name" ==> Select Freestyle JOB
 ``` 
-
-## How to Run the Command or Shell scrit using Jenkins Freestyle
+## LAB-1
+### How to Run the Command or Shell scrit using Jenkins Freestyle
 ```
 JOB => configure ==> Build step ==> Execute Shell ==> HERE we mention our Shell script
 ```
@@ -18,23 +18,28 @@ else
 echo "You are not eligible for vote"
 fi
 ```
-#### Execute these shell script Every Day at 1 AM
+### Execute these shell script Every Day at 1 AM
 
 ```
 JOB => configure => Built Trigger => 
 ```
+## LAB-2
+### Select the Manditory Option for above Jenkins JOB
 
-## GIT Webhook Integration
+#### What are the Manditory option we need to selecct for a Jenkins JOB
+
+## LAB-3
+### GIT Webhook Integration
 ```
 Steps
 ```
-
-## Build a JAVA Project using Maven
+## LAB-4
+### Build a JAVA Project using Maven
 ```
 Steps
 ```
-
-## Deploy our AddressBook App in Tomcat using Freestle JOB
+## LAB-5
+### Deploy our AddressBook App in Tomcat using Freestle JOB
 
 ```
 Steps
