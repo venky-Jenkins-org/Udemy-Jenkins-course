@@ -22,7 +22,7 @@ fi
 ### I want to Execute these shell script Every Day at 1 AM
 
 ```
-JOB => configure => Built Trigger => 
+JOB => configure => Built Trigger => Build periodically ==> Mention cron "0 13 * * *" => click on "save"
 ```
 ## LAB-2
 ### What are the Manditory option we need to selecct for a Jenkins JOB
@@ -49,8 +49,21 @@ job ==> Build Trigger ==> Add Timestamp to Console Output
 
 ## LAB-3
 ### GIT Webhook Integration
+
+If we use Webhooks Job will be Trigger Immediately whenever developer push the Code. 
+    Webooks Works under push based Mechanism, If you use webhook Job Triggered for Every Commit
+
+##### Step:1 
 ```
-Steps
+Go to JOB ==> Build Triggers ==> Select GitHub hook trigger for GITScm Polling
+```
+##### Step:2 
+```
+Go to JOB ==> Build Triggers ==> Select GitHub hook trigger for GITScm Polling
+```
+##### Step:3
+```
+Go to JOB ==> Build Triggers ==> Select GitHub hook trigger for GITScm Polling
 ```
 ## LAB-4
 ### Build a JAVA Project using Maven
